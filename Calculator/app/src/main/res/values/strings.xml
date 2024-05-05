@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="bilangan_1">Bilangan 1</string>
+    <string name="bilangan_2">Bilangan 2</string>
+    <string name="kalkulator">Kalkulator</string>
+    <string name="hint_edittext">Masukkan Angka</string>
+    <string name="hasil">Hasil</string>
+</resources>

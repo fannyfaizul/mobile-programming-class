@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="12dp">
+
+    <ImageView
+        android:id="@+id/imgUser"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/add_contact"
+        android:contentDescription="Add Contact"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama\t\t:"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Masukkan Nama ..."
+            android:inputType="textPersonName"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No HP\t:"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/etnoHP"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Masukkan No HP ..."
+            android:inputType="textPersonName"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</LinearLayout>

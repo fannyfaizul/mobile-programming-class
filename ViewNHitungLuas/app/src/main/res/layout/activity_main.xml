@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add Number"
+        android:textAlignment="center"
+        android:textSize="27sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Input your number in the box:"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/input_number1"
+            android:background="@drawable/edittext"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="49dp"
+            android:layout_height="match_parent"
+            android:text="+"
+            android:gravity="center"
+            android:textSize="27sp"/>
+
+
+        <EditText
+            android:id="@+id/input_number2"
+            android:background="@drawable/edittext"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/count_button"
+        android:gravity="center"
+        android:text="="
+        android:textSize="27sp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result :"
+        android:gravity="center"
+        android:textSize="27sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_num"
+        android:textAlignment="center"
+        android:textSize="31sp"
+        android:text="0"
+        android:textFontWeight="700"
+        />
+
+
+
+
+
+
+
+
+
+</LinearLayout>
