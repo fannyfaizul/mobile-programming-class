@@ -1,3 +1,3 @@
-#Mobile Programming C - Dwi Sunaryono
+# Mobile Programming C - Dwi Sunaryono
 
 Implementation using Kotlin code
